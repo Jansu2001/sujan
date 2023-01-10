@@ -1,0 +1,117 @@
+@keyframes sliding {
+    0%{
+        background-color: black;
+        left: 0;
+        top: 0;
+    }
+    25%{
+        top: 85%;
+        background-color: blue;
+
+    }
+    50%{
+        top: 0;
+        background-color: chartreuse;
+
+    }
+    75%{
+        top: 85%;
+        background-color: tomato;
+
+    }
+    100%{
+        background-color: yellow;
+        left: 720px;
+        top: 0;
+    }
+
+    
+}
+
+.sliding{
+    margin-top: 50px;
+    margin-left: 280px;
+    width: 800px;
+    height: 500px;
+    background-color: gray;
+}
+.ball{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: green;
+    position: relative;
+   animation: sliding 5s ease-in-out 0.5s infinite alternate-reverse ;
+   animation-play-state: running;
+}
+
+/* Second-Ball */
+
+
+@keyframes second-ball {
+    0%{
+        background-color: black;
+        left: 0;
+    }
+    100%{
+        background-color: yellow;
+        left: 720px;
+    }
+
+    
+}
+
+.sliding{
+    margin-top: 50px;
+    margin-left: 280px;
+    width: 800px;
+    height: 500px;
+    background-color: gray;
+    margin-top: 100px;
+}
+.second-ball{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: green;
+    position: relative;
+   animation: second-ball 3s ease-in-out 0.5s infinite alternate-reverse ;
+   animation-play-state: running;
+   
+}
+/* Third Ball */
+
+@keyframes third-ball {
+    0%{
+        background-color: black;
+        left: 0;
+    }
+    100%{
+        background-color: black;
+        left: 720px;
+    }
+
+    
+}
+
+
+.sliding{
+    margin-top: 50px;
+    margin-left: 280px;
+    width: 800px;
+    height: 500px;
+    background-color: gray;
+    margin-top: 100px;
+}
+.third-ball{
+    
+    padding-top: 90px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: green;
+    position: relative;
+   animation: third-ball 3s ease-in-out 0.5s infinite alternate-reverse ;
+   animation-play-state: running;
+   
+}
